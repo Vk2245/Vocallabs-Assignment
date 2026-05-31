@@ -1,16 +1,18 @@
 <div align="center">
   <h1>Vocallabs.ai Product Teardown</h1>
-  <p><i>A Comprehensive Technical and Product Audit</i></p>
+  <h3><i>A Comprehensive Technical and Product Audit</i></h3>
+  
+  <p>
+    <img src="https://img.shields.io/badge/Assignment-Product_Intern-4F46E5?style=for-the-badge" alt="Assignment" />
+    <img src="https://img.shields.io/badge/Deadline-31_May_2026-EF4444?style=for-the-badge" alt="Deadline" />
+    <img src="https://img.shields.io/badge/Author-Vishal_Kumar-10B981?style=for-the-badge" alt="Author" />
+  </p>
 </div>
 
 ---
 
-> **Assignment:** Product Intern Assignment (Deadline: 31 May 2026, 11:59 PM IST)  
-> **Company:** Vocallabs.ai — AI voice agents automating business calls with human-like fluency  
-> **Submitted by:** Vishal Kumar  
-> **Date of Audit:** 31 May 2026  
-
-**Tools Used:** Live website crawl, API testing (13 endpoints), competitor site analysis (Vapi, Retell AI, Bland AI)
+**Target Company:** Vocallabs.ai — AI voice agents automating business calls with human-like fluency.  
+**Methodology:** Live website crawl, API testing (13 endpoints), and competitor site analysis (Vapi, Retell AI, Bland AI).
 
 ---
 
