@@ -438,4 +438,24 @@ As per the assignment requirements, the following supporting documents and code 
 
 ---
 
+## Appendix C: Screenshot Evidence
+
+The following screenshots were captured during the live website audit to document the UI state, brand leaks, and design inconsistencies detailed in this report:
+
+<div align="center">
+  <img src="1.png" width="48%" alt="Screenshot 1" style="border: 1px solid #eaecef; border-radius: 6px; margin: 4px;" />
+  <img src="2.png" width="48%" alt="Screenshot 2" style="border: 1px solid #eaecef; border-radius: 6px; margin: 4px;" />
+  <br/>
+  <img src="3.png" width="48%" alt="Screenshot 3" style="border: 1px solid #eaecef; border-radius: 6px; margin: 4px;" />
+  <img src="4.png" width="48%" alt="Screenshot 4" style="border: 1px solid #eaecef; border-radius: 6px; margin: 4px;" />
+  <br/>
+  <img src="5.png" width="48%" alt="Screenshot 5" style="border: 1px solid #eaecef; border-radius: 6px; margin: 4px;" />
+  <img src="6.png" width="48%" alt="Screenshot 6" style="border: 1px solid #eaecef; border-radius: 6px; margin: 4px;" />
+  <br/>
+  <img src="7.png" width="48%" alt="Screenshot 7" style="border: 1px solid #eaecef; border-radius: 6px; margin: 4px;" />
+  <img src="8.png" width="48%" alt="Screenshot 8" style="border: 1px solid #eaecef; border-radius: 6px; margin: 4px;" />
+</div>
+
+---
+
 *Product teardown conducted by direct usage of vocallabs.ai, docs.vocallabs.ai, API testing at api.superflow.run/b2b, and competitive analysis of Vapi, Retell AI, and Bland AI. All findings verifiable as of 31 May 2026.*
