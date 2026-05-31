@@ -1,0 +1,4 @@
+api-credentials.csv
+.env
+__pycache__/
+*.pyc
