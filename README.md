@@ -1,14 +1,16 @@
-# Vocallabs.ai Product Teardown
-> **A Comprehensive Technical and Product Audit**
+<div align="center">
+  <h1>Vocallabs.ai Product Teardown</h1>
+  <p><i>A Comprehensive Technical and Product Audit</i></p>
+</div>
 
-| Overview | Details |
-| :--- | :--- |
-| **Assignment** | Product Intern Assignment |
-| **Deadline** | 31 May 2026, 11:59 PM IST |
-| **Company** | Vocallabs.ai — AI voice agents automating business calls with human-like fluency |
-| **Submitted by** | Vishal Kumar |
-| **Date of Audit** | 31 May 2026 |
-| **Tools Used** | Live website crawl, API testing (13 endpoints), competitor site analysis (Vapi, Retell AI, Bland AI) |
+---
+
+> **Assignment:** Product Intern Assignment (Deadline: 31 May 2026, 11:59 PM IST)  
+> **Company:** Vocallabs.ai — AI voice agents automating business calls with human-like fluency  
+> **Submitted by:** Vishal Kumar  
+> **Date of Audit:** 31 May 2026  
+
+**Tools Used:** Live website crawl, API testing (13 endpoints), competitor site analysis (Vapi, Retell AI, Bland AI)
 
 ---
 
