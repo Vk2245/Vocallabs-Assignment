@@ -20,6 +20,27 @@
 
 5. **Vocallabs has 130+ voices** (many Indian-named: Lakshmi, Vaibhav, Pooja, Priyanka, Ananya, plus Super Premium Hindi and Hinglish variants), but the voice API returns zero language metadata — the `language` field is missing from all voice objects, making programmatic language filtering impossible. The `getVoicesByLanguageComment?language=hi-IN` endpoint returns data but the voice objects themselves carry no language tag.
 
+```mermaid
+mindmap
+  root((Vocallabs
+Teardown))
+    Critical Issues
+      API Timeout 20s
+      No Self-Serve Trial
+      Brand Fragmentation
+    Core Moats
+      130 Plus Indian Voices
+      WhatsApp Webhooks
+      VocalFlow OSS
+    Brand Identity Leaks
+      Superflow API
+      Subspace/Whatsub
+      Green Wallet
+    Strategic Gaps
+      Missing SMB Integrations
+      Generic ICP Positioning
+```
+
 ---
 
 ## Section 2: Five Core Feedbacks (Assignment Format)
@@ -98,6 +119,24 @@ A complete API audit reveals the following brand fragmentation across a single a
 
 This is not just a branding inconsistency — it reveals that Vocallabs is built on shared infrastructure with at least three other products (Superflow, Whatsub/Subspace, Green). Competitors like Retell AI (`api.retellai.com`), Vapi (`api.vapi.ai`), and Bland (`api.bland.ai`) all serve their APIs from brand-matching domains.
 
+```mermaid
+graph TD
+    A[Vocallabs.ai Session] --> B(API Base URL)
+    A --> C(JWT Token Data)
+    A --> D(Wallet API Endpoints)
+    A --> E(HTML Source/Favicon)
+    B -->|api.superflow.run| F[Superflow Identity]
+    C -->|cdn.subspace.money| G[Subspace Money Identity]
+    D -->|getGreenBalance| H[Green Identity]
+    E -->|SYNCHROVOX / YourBrandYB| I[Synchrovox Identity]
+    
+    style A fill:#4F46E5,color:#fff
+    style F fill:#ef4444,color:#fff
+    style G fill:#ef4444,color:#fff
+    style H fill:#ef4444,color:#fff
+    style I fill:#ef4444,color:#fff
+```
+
 **(b) Problem**
 
 A developer integrating Vocallabs will see `api.superflow.run` in their network logs, webhook configs, and firewall allowlists. A security team doing due diligence will flag an unexplained third-party domain. The `getGreenBalance` endpoint name makes no sense to a Vocallabs user. The JWT token containing a `cdn.subspace.money` URL means every authenticated session carries a digital fingerprint of a different company's infrastructure. This creates trust issues at the most sensitive layer — the infrastructure layer.
@@ -123,6 +162,19 @@ The ICP Vocallabs can realistically win — an Indian D2C brand with 50 agents, 
 **(c) Ship Instead**
 
 Formalise three partnerships as an **India SMB Voice AI Stack** motion: (1) **Leadsquared** — a native "Launch AI Call Campaign" button inside Leadsquared's pipeline view; (2) **Zoho CRM Marketplace listing** — promote Zoho above Salesforce on vocallabs.ai, publish a Marketplace app; (3) **Exotel / Knowlarity channel partnership** — reseller + integration positioning Vocallabs as the AI layer for existing telephony customers. **Also:** Surface the Aadhaar identity URL and WhatsApp webhook capabilities on the marketing site and docs — these are genuine India moats that competitors cannot replicate.
+
+```mermaid
+graph LR
+    A[Vocallabs AI] -->|Native Integration| B[LeadSquared CRM]
+    A -->|Marketplace App| C[Zoho CRM]
+    A -->|AI Layer Reseller| D[Exotel/Knowlarity]
+    B --> E((SMB D2C Brands))
+    C --> E
+    D --> E
+    
+    style A fill:#4F46E5,color:#fff
+    style E fill:#10B981,color:#fff
+```
 
 ---
 
